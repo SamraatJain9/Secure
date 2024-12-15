@@ -43,7 +43,7 @@ class MyWidget(QtWidgets.QWidget):
         
         retval = review.exec()
         if retval == QMessageBox.Ok:
-            #self.image_label.setPixmap(pixmap.scaled(self.image_label.size(), QtCore.Qt.KeepAspectRatio))
+            #self.image_label.setPixmap
             self.copy_image_to_folder(file_name, folder_name)
         elif retval == QMessageBox.Retry:
             self.upload_picture(folder_name)
