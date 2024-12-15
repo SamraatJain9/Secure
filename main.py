@@ -4,6 +4,7 @@ import shutil
 from PySide6 import QtCore, QtWidgets, QtGui
 from PySide6.QtWidgets import QMessageBox
 
+# Frontend window
 class MyWidget(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
